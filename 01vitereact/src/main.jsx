@@ -8,3 +8,7 @@ root.render(
     <App></App>
   </React.StrictMode>
 );
+// ------------ this is also correct
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <app/>
+// )
