@@ -1,0 +1,62 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, sans-serif;
+  background-color:#f4f4f4;
+}
+
+.app-container{
+  width:80%;
+  margin:auto;
+  margin-top:40px;
+  background:white;
+  padding:20px;
+  border-radius:10px;
+}
+
+h1{
+  text-align:center;
+}
+
+.filter-box{
+  margin-bottom:20px;
+}
+
+.filter-box input{
+  width:100%;
+  padding:10px;
+}
+
+.add-form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.add-form input{
+  flex:1;
+  padding:10px;
+}
+
+.add-form button{
+  padding:10px 20px;
+  background-color:blue;
+  color:white;
+  border:none;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align:center;
+}
+
+th{
+  background-color:blue;
+  color:white;
+}
