@@ -36,6 +36,7 @@ app.get('/student', function(req, res) {
 
 // Enrolled Student Route
 app.get('/enrolled_student', function(req, res) {
+   
     res.send('I am enrolled Student');
 });
 
